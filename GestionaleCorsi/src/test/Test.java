@@ -10,11 +10,11 @@ import model.Esame;
 public class Test {
 	public static void main(String[] args) {
 		Studente s1 = new Studente("Domenico", "Bisceglia", "21/11/1999");
-		System.out.println(s1.getMatricola());
+		//System.out.println(s1.getMatricola());
 		Studente s2 = new Studente("Paolo", "Rossi", "11/12/1980");
-		System.out.println(s2.getMatricola());
+		//System.out.println(s2.getMatricola());
 		Studente s3 = new Studente("Paola", "Verdi", "12/11/1998");
-		System.out.println(s2.getMatricola());		
+		//System.out.println(s2.getMatricola());		
 		Docente doc = new Docente("Giuseppina", "Pappappero", "1/1/1913", "Medicina");
 		
 		Aula aula = new Aula(doc);
